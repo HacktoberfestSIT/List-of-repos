@@ -1,7 +1,7 @@
 # List-of-repos
 
 ## 😇About the repository
- This is webiste showcasing all the ongoing hacktoberfest ready open souce repositories which is ready for contribution.
+ A Website showcasing all the ongoing hacktoberfest ready open souce repositories which is ready for contribution.
 
 ## 📢General Steps to follow while contributing:
 ### Step Zero
