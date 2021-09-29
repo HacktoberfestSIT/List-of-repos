@@ -35,4 +35,4 @@
 
 All the best and do not forget to Star ⭐ this repository. 😁
 
-##### Repository maintained by [Saantani Deb](https://github.com/SayantaniDeb)
+##### Repository maintained by [Sayantani Deb](https://github.com/SayantaniDeb)
