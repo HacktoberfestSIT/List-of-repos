@@ -10,7 +10,7 @@ body{
     flex: 1 0 auto;
   }
   .fontgoog{
-    font-family: 'Merriweather', serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .ques{
@@ -20,4 +20,3 @@ body{
 iframe {
   max-width: 100%;
 }
-
