@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacktoberfest</title>
     <link rel="icon" href="images/favicon.png" type="image.png">
+    
     <link rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    
 
 </head>
 <body class=" cyan lighten-5">
@@ -27,7 +29,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="./pages/Contributors.html">Contributors</a></li>
         
-        <li><a href="./pages/repo.html">ListOfRepos</a></li>
+        <li><a href="./pages/repo.html">List of Repos</a></li>
     </ul>
 
     <ul class="sidenav" id="mobile-links">
@@ -35,7 +37,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="./pages/Contributors.html">Contributors</a></li>
         
-        <li><a href="./pages/repo.html">ListOfRepos</a></li>
+        <li><a href="./pages/repo.html">List of Repos</a></li>
     </ul>
 </div>
 </nav>
@@ -52,13 +54,33 @@
     </thead>
     </table>
 
- <div class="main grey lighten-1" style="min-height: 100vh;">
-     <h4>
-         
-        
-
-     </h4>
- </div> 
+  
+  <div class="main grey darken-1" style="min-height: 110vh;">
+    <h4 class="center">Resources to get started</h4>
+     <div class="carousel carousel-slider center" style="min-height: 100vh">
+      <div class="carousel-item grey darken-1 white-text" href="#one!">
+        <h2>Why Open Source? </h2>
+        <iframe width="734" height="450" src="https://www.youtube.com/embed/JZeHxbLm_IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item grey darken-1 white-text" href="#two!">
+        <h2>Make your first Pull Request</h2>
+        <iframe width="734" height="450" src="https://www.youtube.com/embed/jZtECuvNRiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </div>
+      <div class="carousel-item grey darken-1 white-text" href="#three!">
+        <h2>Level up your contribution skills</h2>
+        <iframe width="734" height="450" src="https://www.youtube.com/embed/pASY8b8QWcs?list=PLseEp7p6EwiZgLPknY4ITJxfoo75wqxph" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="carousel-item grey darken-1 white-text" href="#four!">
+        <h2>Basic Guide for Maintainers - Part 1</h2>
+        <iframe width="734" height="450" src="https://www.youtube.com/embed/t5xFI6qqS6c?list=PLseEp7p6EwiZgLPknY4ITJxfoo75wqxph" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+      </div>
+      <div class="carousel-item grey darken-1 white-text" href="#five!">
+        <h2>Basic Guide for Maintainers - Part 2</h2>
+        <iframe width="734" height="450" src="https://www.youtube.com/embed/ODDOXsrTNqA?list=PLseEp7p6EwiZgLPknY4ITJxfoo75wqxph" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+      </div>        
+  </div>
+  </div>
+     
  
  <div class="container ques">
     <br>
@@ -94,6 +116,8 @@
         </li>
       </ul>
 </div>
+
+
 
  <footer class="page-footer green">
   <div class="container">
@@ -144,8 +168,7 @@
  
 
 
-
-
+  
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
   <script src="./js/materialize.min.js"></script>
   <script>
@@ -163,5 +186,22 @@
     $('.collapsible').collapsible();
   });
   </script>
+
+
+<script>
+  var instance = M.Carousel.init({
+    fullWidth: true,
+    indicators: true
+  });
+
+  // Or with jQuery
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
+        </script>
+  
+   
 </body>
 </html>
