@@ -3,7 +3,7 @@ body{
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-
+    font-family: 'Heebo', sans-serif;
   }
 
   main {
@@ -19,4 +19,45 @@ body{
 
 iframe {
   max-width: 100%;
+}
+
+/* Navbar */
+.nav-wraper {
+  font-family: 'Martel', serif;
+}
+/* Navbar End */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Text Me One', sans-serif;
+}
+
+/* Register Button */
+.hackoct {position: relative;}
+.register-btn {
+    position: absolute;
+    bottom: 140px; 
+    right: 10px; 
+  }
+/* Register Button End */
+
+@media only screen and (max-width:750px) {
+
+  .code-img {
+    padding-top: 2.8rem;
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hackoct {position: relative;}
+  .register-btn {
+      position: absolute;
+      bottom: 80px; 
+      right: 0px; 
+  }
+  
+  th {
+    padding:0;
+  } 
+  .hack-image {padding-left:12px ;}
 }
