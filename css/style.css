@@ -16,4 +16,7 @@ body{
   .ques{
     min-height: 100vh;
   }
-  
+
+iframe {
+  max-width: 100%;
+}
