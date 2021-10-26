@@ -8,4 +8,7 @@ Welcome to the list of people who contributed to this repo 💥
 
 ## Repo Owner and Admins:
 [Sayantani Deb](https://github.com/SayantaniDeb)
+
+## Contributors:
+[Imran Khan](https://github.com/Imrantechwiz)
  

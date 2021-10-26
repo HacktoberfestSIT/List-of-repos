@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 body{
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Quicksand';
   }
 
   main {
@@ -37,6 +37,9 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     bottom: 140px; 
     right: 10px; 
+    border-radius: 35px;
+  
+    
   }
 /* Register Button End */
 
