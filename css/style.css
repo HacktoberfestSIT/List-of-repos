@@ -4,6 +4,7 @@ body{
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Quicksand';
+   
   }
 
   main {
@@ -35,9 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 .hackoct {position: relative;}
 .register-btn {
     position: absolute;
-    bottom: 140px; 
-    right: 10px; 
-    border-radius: 35px;
+    bottom: 145px; 
+    right: 8px; 
+    border-radius: 40px;
   
     
   }
@@ -46,8 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width:750px) {
 
   .code-img {
-    padding-top: 2.8rem;
-    border-radius: 10%;
+    padding-top: 3.7rem;
+    border-radius: 12%;
     max-width: 100%;
     height: auto;
   }
@@ -55,12 +56,12 @@ h1, h2, h3, h4, h5, h6 {
   .hackoct {position: relative;}
   .register-btn {
       position: absolute;
-      bottom: 80px; 
-      right: 0px; 
+      bottom: 75px; 
+      right: 1px; 
   }
   
   th {
     padding:0;
   } 
-  .hack-image {padding-left:12px ;}
+  .hack-image {padding-left:15px ;}
 }
